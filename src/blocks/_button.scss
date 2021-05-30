@@ -1,0 +1,37 @@
+.button{
+    width: 222px;
+    height: 71px;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: white;
+    border: none;
+    &:hover{
+        border: solid black;
+        box-shadow: -2px 1px 41px -16px rgba(0,0,0,0.79);
+        -webkit-box-shadow: -2px 1px 41px -16px rgba(0,0,0,0.79);
+        -moz-box-shadow: -2px 1px 41px -16px rgba(0,0,0,0.79);
+    }
+    & span{
+        padding-left: 15px;
+        font-weight: 900;
+    }
+    &__gallery{
+        background-color: #333333;
+        width: 222px;
+        height: 71px;
+        
+    }
+    &-colored{
+        width: 221.81px;
+        height: 71px;
+        background-color: #333333;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &:hover{
+            background-color:white;
+            color: black;
+        }
+    }
+}

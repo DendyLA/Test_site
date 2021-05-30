@@ -1,0 +1,39 @@
+.tasks{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    &__title{
+    text-align: start;
+    padding-left: 120px;
+    font-weight: 300;
+    font-size: 64px;
+    color: #BDBDBD;
+    }
+    &__text{
+        font-size: 17px;
+        line-height: 36px;
+        display: flex;
+        justify-content: space-around;
+        
+        
+    }
+    &__item{
+        width: 570px;
+        height: 144px;
+        color: #333333;
+        vertical-align: middle;
+        &-small{
+            width: 379px;
+            height: 144px;
+        }
+        & span{
+            font-weight: 900;
+            font-size: 180px;
+            float: left;
+            color: #F2F2F2;
+            height: 140px;
+            padding-top: 50px;
+            overflow-y: hidden;
+        }
+    }
+}

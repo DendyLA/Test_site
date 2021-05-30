@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    justify-content: center;
+    &__gallery{
+        float:left;
+        display: grid;
+        grid-template-columns: repeat(2, 270px);
+        grid-template-rows: 265px 140px;
+        gap: 30px;
+    }
+    &__text{
+        width: 409px;
+        height: 386px;
+        padding-left:30px;
+    }
+    &__title{
+        font-weight: 300;
+        font-size: 64px;
+        color: #BDBDBD;
+    }
+    &__paragraph{
+        font-weight: 300;
+        font-size: 16px;
+    }
+}
+#second__about{
+    padding-top: 50px;
+    
+}
